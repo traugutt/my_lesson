@@ -3,19 +3,29 @@
     <i>
       <slot name="icon"></slot>
     </i>
-    <div class="details">
-      <h3>
-        <slot name="heading"></slot>
-      </h3>
-      <slot></slot>
+    <div id="name_input">
+      <form>
+          <label for="student_name">Please type your name.</label>
+          <br>
+          <input type="text" id="student_name" name="fname">
+      </form>
     </div>
   </div>
 </template>
 
 <style scoped>
+#name_input {
+  margin-top: 2rem;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
 .item {
   margin-top: 2rem;
   display: flex;
+  place-content: center;
+  place-items: center;
 }
 
 .details {

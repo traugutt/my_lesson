@@ -1,7 +1,8 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>This is a simple website for English homework</h1>
   </div>
+  <p> This website is intended for homework.</p>
 </template>
 
 <style>
